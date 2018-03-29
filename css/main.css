@@ -10,18 +10,21 @@ body{
 /***** GRID *****/
 .full-width {
     width: 1200px;
-    margin: 0 100%;
+    margin: 0 auto;
+
 }
 
 .half-width{
   width: 600px;
   margin: 0 auto;
-  float:left;
+  float: left;
+
 }
 
-.third-width{  width: 400px;
+.third-width{
+  width: 400px;
   margin: 0 auto;
-  float:left;
+  float: left;
 }
 
 /***** HEADER SECTION *****/
@@ -40,6 +43,7 @@ header h1 {
 
 nav {
     float: right;
+    padding: 75px 40px;
 
 }
 
@@ -82,7 +86,7 @@ header h2 span {
 
 #about p {
     font-size: 21px;
-    color: #7f7f7f
+    color: #7f7f7f;
     line-height: 40px;
     padding-right: 50px;
 }
